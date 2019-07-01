@@ -67,7 +67,41 @@
     line-height: 1.11;
     letter-spacing: normal;
     color: #207dff;
+    position: relative;
     }
+
+    .one {
+    -webkit-animation-name: heading; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: heading;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  
+    }
+
+    .two {
+        -webkit-animation-name: heading2; 
+        -webkit-animation-duration: 4s; 
+        animation-name: heading2;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-fill-mode: both;
+        }
+    
+
+
+  @keyframes heading {
+    0%   { left:-400px; }
+    100% { left:0px; }
+  }
+
+  @keyframes heading2 {
+    0%   { left:-800px; }
+    100% { left:0px; }
+  }
+
+
     .tagline {
     margin: 30px 0px;
     font-family: Poppins;
@@ -80,10 +114,9 @@
     color: #33313b;
     }
     .contactus {
-    position:absolute;
+    position:relative;
     }
     .contactbuttonback {
-    display: inline-block;
     padding: 20px;
     border:1px solid #217eff;
     border-radius: 0px 10px;
@@ -91,21 +124,43 @@
     color:#ffffff; 
     position:relative;
     width:210px;
+    box-sizing: border-box;
     }
     .contactbutton {
-    display: inline-block;
     padding: 20px;
     border:1px solid #217eff;
     border-radius: 0px 10px;
     background: #217eff;
     color:#ffffff;
-    position: relative;
+    position: absolute;
     top:10px;
-    right:200px;
+    left:10px;
     width:210px;
     text-align: center;
     font-size: 18px;
+    box-sizing: border-box;
+    -webkit-transition: top 0.5s ease, left 0.5s ease; 
+    transition: top 0.5s ease, left 0.5s ease;
     }
+
+    .contacttext {
+        vertical-align: middle;
+        display: inline-block;
+        /* border:1px solid yellow; */
+    }
+
+    .contactimg {
+        vertical-align: middle;
+        display: inline-block;
+        /* border:1px solid yellow; */
+    }
+
+    .contactbutton:hover {
+        top: 0px;
+        left: 0px;
+    }
+
+
     .firstviewimage {
     display: inline-block;
     width: 69%;
@@ -123,6 +178,9 @@
     background-size: 100%;
     padding-top: 425px;
     margin-top:-100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     }
     .serviceheading {
     text-align: center;
