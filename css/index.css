@@ -1,4 +1,4 @@
-* {
+body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     }
@@ -9,6 +9,7 @@
     width:75%;
     margin: 20px auto;
     position: relative;
+    max-width: 1240px;
     }
     .logowrapper {
     display: inline-block;
@@ -55,13 +56,13 @@
     }
     .firstviewcontent {
     display: inline-block;
-    width: 30%;
+    width: 49%;
     vertical-align: top;
     }
     .maintext {
     font-family: Poppins;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.11;
@@ -115,7 +116,7 @@
 
   .servicename p {
     text-align: left;
-    padding: 10px;
+    padding: 20px 30px;
   }
 
 
@@ -129,6 +130,7 @@
     line-height: 35px;
     letter-spacing: normal;
     color: #33313b;
+    max-width: 400px;
     }
     .contactus {
     position:relative;
@@ -218,13 +220,14 @@
 
     .firstviewimage {
     display: inline-block;
-    width: 69%;
+    width: 49%;
     text-align: center;
     }
     .main_image {
     max-width: 100%;
     max-height: 100%;
     object-fit: fill;
+    width: 100%;
     }
     .hedgeimage {
     background-image: url("../images/Background-image-our-service.png");
@@ -259,6 +262,7 @@
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
+    padding: 10px 0;
     }
     .servicetagline {
     font-family: Roboto;
