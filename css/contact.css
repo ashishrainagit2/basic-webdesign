@@ -1,0 +1,506 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+    .wrapper {
+    background-color: #ffffff;
+    }
+    .conatiner {
+    width:75%;
+    margin: 20px auto;
+    position: relative;
+    }
+    .logowrapper {
+    display: inline-block;
+    width:30%;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    }
+    .navbar {
+    display:inline-block;
+    width: 69%;
+    box-sizing: border-box;
+    }
+    .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+    .navbar ul li {
+    float: left;
+    }
+    .navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33313b;
+    }
+    .navbar ul li a.active {
+    color: #207dff;
+    font-weight: bold;
+    }
+    .navbar ul li a:hover {
+    }
+    .firstview {
+    margin-top: 60px;
+    }
+    .firstviewcontent {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    }
+    .maintext {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #207dff;
+    position: relative;
+    }
+
+    .one {
+    -webkit-animation-name: heading; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: heading;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  
+    }
+
+    .two {
+        -webkit-animation-name: heading2; 
+        -webkit-animation-duration: 4s; 
+        animation-name: heading2;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-fill-mode: both;
+        }
+    
+
+
+  @keyframes heading {
+    0%   { left:-400px; }
+    100% { left:0px; }
+  }
+
+  @keyframes heading2 {
+    0%   { left:-800px; }
+    100% { left:0px; }
+  }
+
+
+    .tagline {
+    margin: 30px 0px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: normal;
+    color: #33313b;
+    }
+    .contactus {
+    position:relative;
+    }
+    .contactbuttonback {
+    padding: 20px;
+    border:1px solid #217eff;
+    border-radius: 0px 10px;
+    background:white;
+    color:#ffffff; 
+    position:relative;
+    width:210px;
+    box-sizing: border-box;
+    left: 130px;
+    }
+    .contactbutton {
+    padding: 20px;
+    border:1px solid #217eff;
+    border-radius: 0px 10px;
+    background: #217eff;
+    color:#ffffff;
+    position: absolute;
+    top:10px;
+    left:140px;
+    width:210px;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-transition: top 0.5s ease, left 0.5s ease; 
+    transition: top 0.5s ease, left 0.5s ease;
+    }
+
+    .contactusinfo {
+    background-image: linear-gradient(114deg, #3246f3, #6e83e0);
+    color: white;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    border-radius: 10px;
+    display: none;
+    }
+
+    .closediv {
+      text-align: right;
+      padding: 10px;
+    }
+    .contactemail {
+      display: inline-block;
+      border-right: 1px solid white;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .contactnumber {
+      display: inline-block;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .email-env {
+      text-align: center;
+    }
+
+    .contactnumber p {
+      padding: 0px 40px;
+    }
+
+
+    .contacttext {
+        vertical-align: middle;
+        display: inline-block;
+        /* border:1px solid yellow; */
+    }
+
+    .contactimg {
+        vertical-align: middle;
+        display: inline-block;
+        /* border:1px solid yellow; */
+    }
+
+    .contactbutton:hover {
+        top: 0px;
+        left: 130px;
+    }
+
+
+    .firstviewimage {
+    display: inline-block;
+    width: 69%;
+    text-align: center;
+    }
+    .main_image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    }
+    .hedgeimage {
+    background-image: url("../images/Background-image-our-service.png");
+    text-align: center;
+    padding-bottom: 20px;
+    background-size: 100%;
+    padding-top: 425px;
+    margin-top:-100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    }
+    .serviceheading {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    }
+    .servicetagline {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px 10px;
+    }
+    .servicename {
+    width: 25%;
+    margin:20px 20px;
+    display:inline-block;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    color: #666666;
+    background-color: #ffffff;
+    border-radius: 5px;
+    }
+    .servicename h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #33313b;
+    }
+    .middlecolumn {
+    position: relative;
+    top: 30px;
+    }
+    .whoweare {
+    }
+    .whoweare_heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33313b;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    }
+    .whoweare_text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 15px;
+    }
+    .howwedoit {
+    margin-bottom: 110px;
+    }
+    .howwedoit_heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33313b;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    }
+    .stepcontent {
+    position: relative;
+    top:85px;
+    padding: 10px;
+    }
+    .stepcontent h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33313b;
+    padding:5px;
+    margin:0px;
+    }
+    .stepcontent p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #666666;
+    margin: 0px;
+    }
+    .working_plan {
+    text-align: center;
+    }
+    .workstep {
+    border-top-left-radius: 30px;
+    width:20%;
+    padding: 10px;
+    margin:10px;
+    display: inline-block;
+    text-align: center;
+    height: 150px;
+    }
+    .workstep svg{ 
+    position: relative;
+    top:40px;
+    }
+    .step1 {
+    background-color: #ca3e47;
+    }
+    .step2 {
+    background-color: #009975;
+    }
+    .step3 {
+    background: #fdd043;
+    }
+    .step4 {
+    background: #064acb;
+    }
+    .ourclients {
+    margin-bottom: 20px;
+    }
+    .ourclients_heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #33313b;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    }
+    .clientpics {
+    text-align: center;
+    }
+    .clientpic {
+    display:  inline-block;
+    margin: 10px;
+    width: 20%;
+    }
+    .clientpic img {
+    width:100%;
+    }
+    .footerimage{
+    background-image: url("../images/Background-image-footer.png");
+    text-align: center;
+    height: 360px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    }
+    .footercontent {
+    vertical-align: middle;
+    position: relative;
+    top: 140px;
+    color: #ffffff;
+    text-align: center;
+    }
+    .footercol {
+    display: inline-block;
+    text-align: start;
+    padding: 0px 20px;
+    margin:0px  15px;
+    border-right: 2px solid white;
+    margin-bottom: 10px;
+    }
+    .footercol h2 {
+    margin-top: 0px;
+    }
+    .footercol3 {
+    border: 0px solid  grey;
+    }
+    .copyright {
+    width: 80%;
+    border-top: 2px solid white;
+    margin: 0px 135px;
+    }
+
+    .formrow {
+        background-color: #f8f8f8;
+        padding: 10px;
+    }
+
+    .formcontact {
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        color: #333333;
+        margin-top: 20px;
+    }
+
+    .formwrapper {
+        /* //border: 1px solid  #c4c4c4; */
+        border-radius: 5px;
+        /* background: #ffffff; */
+        text-align: left;
+    }
+
+    form {
+         border: 1px solid  #c4c4c4;
+         border-radius: 5px;
+          background: #ffffff; 
+         text-align: left;
+         display: inline-block;
+         padding: 20px;
+         margin: 20px;
+         margin-left: 0px;
+         
+    }
+
+    input, textarea {
+        width: 350px;
+        padding: 10px;
+        margin: 10px;
+        border: none; 
+        border:solid 1px #c4c4c4;
+        border-radius: 5px;
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: condensed;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    input::placeholder , textarea::placeholder{
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: condensed;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    .headingform {
+      font-family: Poppins;
+      font-size: 22px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      /* text-align: center; */
+      color: #333333;
+    }
+
+    
