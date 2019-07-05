@@ -72,7 +72,7 @@
 
     .one {
     -webkit-animation-name: heading; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
     animation-name: heading;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -85,11 +85,18 @@
         animation-name: heading2;
         animation-duration: 1s;
         animation-timing-function: linear;
-        animation-delay: 1s;
+        /* animation-delay: 1s; */
         animation-fill-mode: both;
         }
     
-
+        .firstviewimagewrapper {
+          position: relative;
+          -webkit-animation-name: heading3; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+          animation-name: heading3;
+          animation-duration: 1s;
+          animation-timing-function: linear;
+        }
 
   @keyframes heading {
     0%   { left:-400px; }
@@ -99,6 +106,16 @@
   @keyframes heading2 {
     0%   { left:-800px; }
     100% { left:0px; }
+  }
+
+  @keyframes heading3 {
+    0%   { right:-800px; }
+    100% { right:0px; }
+  }
+
+  .servicename p {
+    text-align: left;
+    padding: 10px;
   }
 
 
@@ -218,8 +235,20 @@
     margin-top:-100px;
     background-size: cover;
     background-repeat: no-repeat;
-
     }
+    .servicename {
+      -webkit-transition: all 0.5s; /* For Safari 3.1 to 6.0 */
+      transition: all 0.5s;
+      box-shadow: 5px 5px transparent;
+      border: 1px solid transparent;
+    }
+    .servicename:hover {
+      z-index: 5;
+      box-shadow: 5px 5px #000000;
+      border: 1px solid #000000;
+    }
+
+
     .serviceheading {
     text-align: center;
     font-family: Poppins;
