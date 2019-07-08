@@ -530,5 +530,283 @@
   color: red;
   display: inline;
 }
- }
-    
+ 
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #207dff;
+  margin: 6px auto;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 25px;
+}
+
+.bar3 {
+  width: 15px;
+}
+
+.burger {
+  display: none;
+  text-align: center;
+}
+
+.contactusmobile {
+  display: none;
+}
+
+.servicenamewrappermobile {
+  display: none;
+}
+
+.sidebar {
+  display:none;
+}
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+
+  }
+
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+      .navbar {
+        display: none;
+      }
+      .maintext {
+        display: inline-block;
+        font-size: 28px;
+      }
+      .firstcont {
+        padding-top: 20px;
+        text-align: center;
+        display: inline-block;
+      }
+      .burger {
+        display: inline-block;
+        padding-top: 20px;
+        padding-left: 10px;
+      }
+      .firstview {
+        text-align: center;
+      }
+      .firstviewcontent {
+        display: block;
+        width : 100%;
+      }
+      .conatiner {
+        width: 80%;
+      }
+      .tagline {
+        font-size: 18px;
+        line-height: normal;
+        margin: 20px 0px;
+      }
+
+      .contactus {
+        display: none;
+      }
+
+      .contactusmobile {
+        display: inline-block;
+        padding-bottom: 70px;
+        margin: 20px;
+      }
+
+      .firstviewimage {
+          width: 100%;
+      }
+
+      .secondrow {
+        position: relative;
+        top: -40px;
+      }
+
+      .contactbuttonback {
+        width: 155px;
+        padding: 8px;
+      }
+
+      .contactbutton {
+        width: 155px;
+        padding: 5px;
+      }
+
+      .hedgeimage {
+        background-image: url("../images/Background-image-our-service-mobile.jpg");
+        padding-top: 50px;
+      }
+
+      .servicename {
+        width: 100%;
+      }
+
+      .servicenamewrapper {
+        display: none;
+      }
+
+      .servicenamewrappermobile {
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+      }
+
+      .servicenamewrappermobile p{
+        white-space: normal;
+      }
+
+      .servicenamewrappermobile .middlecolumn{
+        top: 0px;
+      }
+
+      .workstep {
+        width: 100%;
+      }
+
+      .working_plan {
+        text-align: center;
+        overflow-x: scroll;
+        white-space: nowrap;
+      }  
+
+      .clientpics {
+        text-align: center;
+        overflow-x: scroll;
+        white-space: nowrap;
+      }
+
+      .clientpic {
+        width: 100%;
+      }
+
+      .footerimage{
+        background-image: url("../images/Background-image-footer-mobile.jpg");
+        height: auto;
+      }
+
+      .footercontent {
+        top: 0px;
+      }
+
+      .footercol1 , .footercol2 {
+        display: none;
+      }
+
+      .fimage1, .fimage2 , .fimage3 {
+        display: inline-block;
+      }
+      .copyright {
+        width: 100%;
+        margin: 0px;
+      }
+
+      .servicetagline {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .servicenamewrappermobile p{
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        color: #666666;
+      }
+
+      .whoweare_text {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #666666;
+        padding: 0px;
+      }
+
+      .howwedoit {
+        margin-bottom: 0px;
+      }
+
+      .working_plan::-webkit-scrollbar { width: 0 !important }
+      .clientpics::-webkit-scrollbar { width: 0 !important }
+      .servicename::-webkit-scrollbar { width: 0 !important }
+
+      .sidebar {
+        display: none;
+        width: 50%;
+        z-index: 5;
+        border: 1px solid rgb(232, 222, 222);
+        position: absolute;
+        left:9px;
+        top:45px;
+        background: #ffffff;
+      }
+
+      .sidebar ul {
+        list-style-type: none;
+      }
+
+      .sidebar ul li  {
+       padding: 10px;
+        
+      }
+
+      .sidebar ul li a {
+        text-decoration: none;
+
+      }
+
+      .sidebar a:hover, .sidebar a:visited , .sidebar a:active {
+          color: #000000;
+      }
+
+      .sidebar a:visited  {
+        color: #000000;
+    }
+
+     .sidebar a:active {
+      color: #000000;
+    }
+
+      .sidebar .active {
+        color: blue;
+      }
+
+      form {
+        width: 100%;
+      }
+
+      input, textarea {
+        width: 200px;
+      }
+
+  }
+
+  /* Custom, iPhone Retina */ 
+  @media only screen and (max-width : 320px) {
+
+  }
+
