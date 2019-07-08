@@ -1,20 +1,15 @@
-$(".servicename ").hover(function(){ debugger;
+$(".servicename ").hover(function(){
     $(this).addClass(' animate rubberBand')
 })
 
 $(document).ready(function(){
-    // $('.servicenamewrappermobile').slick({
-    //     dots: true,
-    //     infinite: true,
-    //     speed: 300,
-    //     slidesToShow: 1,
-    //     centerMode: true,
-    //     variableWidth: true
-    // });
+    $(".burger").click(function(){
+        $('.sidebar').show();
+        $('.overlay').show();
+    })
 
-    $(document).ready(function(){
-        $('.your-class').slick({
-          setting-name: setting-value
-        });
-      });
+    $(".overlay").click(function(){
+        $('.sidebar').hide();
+        $('.overlay').hide();
+    })
 });
