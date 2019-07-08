@@ -201,3 +201,34 @@
     border-top: 2px solid white;
     margin: 0px 135px;
     }
+
+    .one {
+        position: relative;
+        -webkit-animation-name: heading; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+        animation-name: heading;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      
+        }
+
+    .two {
+        position: relative;
+        -webkit-animation-name: heading2; 
+        -webkit-animation-duration: 4s; 
+        animation-name: heading2;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        /* animation-delay: 1s; */
+        animation-fill-mode: both;
+        }
+
+    @keyframes heading {
+        0%   { left:-800px; }
+        100% { left:0px; }
+    }
+
+    @keyframes heading2 {
+        0%   { right:-800px; }
+        100% { right:0px; }
+    }

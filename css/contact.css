@@ -67,6 +67,8 @@
     width: 30%;
     vertical-align: top;
     }
+
+ 
     .maintext {
     font-family: Poppins;
     font-size: 50px;
@@ -77,6 +79,15 @@
     letter-spacing: normal;
     color: #207dff;
     position: relative;
+    }
+
+    .firstviewimage {
+      position: relative;
+      -webkit-animation-name: heading3; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: heading3;
+      animation-duration: 1s;
+      animation-timing-function: linear;
     }
 
     .one {
@@ -110,7 +121,10 @@
     100% { left:0px; }
   }
 
-
+  @keyframes heading3 {
+    0%   { right:-800px; }
+    100% { right:0px; }
+  }
     .tagline {
     margin: 30px 0px;
     font-family: Poppins;
@@ -511,5 +525,10 @@
       /* text-align: center; */
       color: #333333;
     }
-
+ .errordiv {
+  font-size: 16px;
+  color: red;
+  display: inline;
+}
+ }
     

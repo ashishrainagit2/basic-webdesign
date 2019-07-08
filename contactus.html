@@ -11,12 +11,14 @@
         <link rel="stylesheet" href="./css/contact.css?06">
         <link rel="stylesheet" href="./css/wow.css?06">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
         <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
         <script language="javascript" type="text/javascript">
             $(function(){
             new WOW().init(); 
             });
         </script>
+        <script src="./js/contactus.js"></script>
 
     </head>
     <body>
@@ -59,10 +61,13 @@
                     <div class="formcontact">
                         <div class="headingform">Please fill out the quick form and we will be in touch with lightning speed</div>
                             <div class="formwrapper">
-                                <form action="">
-                                    <input type="text" placeholder="Name" name="name"> <br />
-                                    <input type="text" placeholder="Your email address" name="email"><br />
-                                    <textarea name="message" id="" cols="30" rows="5" placeholder="message"></textarea>
+                                <form action="" method="GET">
+                                    <input type="text" placeholder="Name" name="name" id="name"> 
+                                    <div id="head" class="errordiv"></div>   <br />
+                                    <input type="text" placeholder="Your email address" name="email" id="email">
+                                    <div  id="head2" class="errordiv"></div> <br />
+                                    <textarea name="message" id="message" cols="30" rows="5" placeholder="message"></textarea>
+                                    <div id="head3" class="errordiv"></div>
                                     <!-- adding button -->
                                     <div class="contactus">
                                             <div class="contactbuttonback"> Contact  us</div>
