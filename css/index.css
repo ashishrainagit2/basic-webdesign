@@ -1,70 +1,4 @@
-body {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    }
-    .wrapper {
-    background-color: #ffffff;
-    }
-    .overlay {
-      position: fixed;
-      display: none;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0,0,0,0.5);
-      z-index: 2;
-      cursor: pointer;
-  
-    }
-    .conatiner {
-    width:75%;
-    margin: 20px auto;
-    position: relative;
-    max-width: 1240px;
-    }
-    .logowrapper {
-    display: inline-block;
-    width:30%;
-    box-sizing: border-box;
-    padding: 0px 10px;
-    }
-    .navbar {
-    display:inline-block;
-    width: 69%;
-    box-sizing: border-box;
-    }
-    .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    }
-    .navbar ul li {
-    float: left;
-    }
-    .navbar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #33313b;
-    }
-    .navbar ul li a.active {
-    color: #207dff;
-    font-weight: bold;
-    }
-    .navbar ul li a:hover {
-    }
+
     .firstview {
     margin-top: 60px;
     }
@@ -245,7 +179,7 @@ body {
     object-fit: fill;
     width: 100%;
     }
-    .hedgeimage {
+    .ourservicesrow {
     background-image: url("../images/Background-image-our-service.png");
     text-align: center;
     padding-bottom: 20px;
@@ -375,7 +309,11 @@ body {
     color: #33313b;
     padding:5px;
     margin:0px;
+    height: 75px;
+    overflow: scroll;
     }
+    .stepcontent h2::-webkit-scrollbar { width: 0 !important }
+
     .stepcontent p {
     font-family: Roboto;
     font-size: 18px;
@@ -440,72 +378,12 @@ body {
     .clientpic img {
     width:100%;
     }
-    .footerimage{
-    background-image: url("../images/Background-image-footer.png");
-    text-align: center;
-    height: 360px;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: 100%;
-    }
-    .footercontent {
-    vertical-align: middle;
-    position: relative;
-    top: 140px;
-    color: #ffffff;
-    text-align: center;
-    }
-    .footercol {
-    display: inline-block;
-    text-align: start;
-    padding: 0px 20px;
-    margin:0px  15px;
-    border-right: 2px solid white;
-    margin-bottom: 10px;
-    }
-    .footercol h2 {
-    margin-top: 0px;
-    }
-    .footercol3 {
-    border: 0px solid  grey;
-    }
-    .copyright {
-    width: 80%;
-    border-top: 2px solid white;
-    margin: 0px 135px;
-    }
-
-    .bar1, .bar2, .bar3 {
-      width: 35px;
-      height: 5px;
-      background-color: #207dff;
-      margin: 6px auto;
-      transition: 0.4s;
-    }
-
-    .bar2 {
-      width: 25px;
-    }
-
-    .bar3 {
-      width: 15px;
-    }
-
-    .burger {
-      display: none;
-      text-align: center;
-    }
-
     .contactusmobile {
       display: none;
     }
 
     .servicenamewrappermobile {
       display: none;
-    }
-
-    .sidebar {
-      display:none;
     }
 
       /* Large Devices, Wide Screens */
@@ -525,26 +403,11 @@ body {
   
       /* Extra Small Devices, Phones */ 
       @media only screen and (max-width : 480px) {
-          .navbar {
-            display: none;
-          }
-          .conatiner {
-            width: 80%;
-          }
           .maintext {
             display: inline-block;
             font-size: 28px;
           }
-          .firstcont {
-            padding-top: 20px;
-            text-align: center;
-            display: inline-block;
-          }
-          .burger {
-            display: inline-block;
-            padding-top: 20px;
-            padding-left: 10px;
-          }
+        
           .firstview {
             text-align: center;
           }
@@ -573,7 +436,7 @@ body {
               width: 100%;
           }
 
-          .secondrow {
+          .mainsection {
             position: relative;
             top: -40px;
           }
@@ -588,21 +451,21 @@ body {
             padding: 5px;
           }
 
-          .hedgeimage {
+          .ourservicesrow {
             background-image: url("../images/Background-image-our-service-mobile.png");
             padding-top: 127px;
           }
 
-          .hedgeimage .conatiner {
+          .ourservicesrow .container {
             width: 100%;
 
           }
-          .hedgeimage .servicetagline {
+          .ourservicesrow .servicetagline {
             width: 80%;
             margin: 0 auto;
 
           }
-          .hedgeimage .servicename {
+          .ourservicesrow .servicename {
             width: 70%;
             margin: 20px 20px 0 0;
           }
@@ -611,7 +474,7 @@ body {
             display: none;
           }
 
-          .hedgeimage .servicenamewrappermobile {
+          .ourservicesrow .servicenamewrappermobile {
             display: block;
             overflow-x: scroll;
             white-space: nowrap;
@@ -645,33 +508,6 @@ body {
           .clientpic {
             width: 100%;
           }
-
-          .footerimage{
-            background: #505ef0;
-            height: 100%;
-            padding-top: 10px;
-          }
-
-          .copyright p {
-            font-size: 12px;
-          }
-
-          .footercontent {
-            top: 0px;
-          }
-
-          .footercol1 , .footercol2 {
-            display: none;
-          }
-
-          .fimage1, .fimage2 , .fimage3 {
-            display: inline-block;
-          }
-          .copyright {
-            width: 100%;
-            margin: 0px;
-          }
-
           .servicetagline {
             font-family: Roboto;
             font-size: 12px;
@@ -715,48 +551,7 @@ body {
           .clientpics::-webkit-scrollbar { width: 0 !important }
           .servicename::-webkit-scrollbar { width: 0 !important }
 
-          .sidebar {
-            display: none;
-            width: 50%;
-            z-index: 5;
-            border: 1px solid rgb(232, 222, 222);
-            position: fixed;
-            left:0px;
-            top:0px;
-            background: #ffffff;
-            height: 100vh;
-          }
-
-          .sidebar ul {
-            list-style-type: none;
-          }
-
-          .sidebar ul li  {
-           padding: 10px;
-            
-          }
-
-          .sidebar ul li a {
-            text-decoration: none;
-
-          }
-
-          .sidebar a:hover, .sidebar a:visited , .sidebar a:active {
-              color: #000000;
-          }
-
-          .sidebar a:visited  {
-            color: #000000;
-        }
-
-         .sidebar a:active {
-          color: #000000;
-        }
-
-          .sidebar .active {
-            color: blue;
-          }
-
+         
       }
   
       /* Custom, iPhone Retina */ 
