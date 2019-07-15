@@ -472,16 +472,16 @@
             .servicename::-webkit-scrollbar { width: 0 !important }
   
             .sidebar {
-              display: none;
-              width: 50%;
-              z-index: 5;
-              border: 1px solid rgb(232, 222, 222);
-              position: absolute;
-              left:0px;
-              top:0px;
-              background: #ffffff;
-              height: 100vh;
-            }
+            display: none;
+            width: 50%;
+            z-index: 5;
+            border: 1px solid rgb(232, 222, 222);
+            position: fixed;
+            left:0px;
+            top:0px;
+            background: #ffffff;
+            height: 100vh;
+          }
   
             .sidebar ul {
               list-style-type: none;
