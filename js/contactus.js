@@ -50,10 +50,18 @@ if (message.length == 0) {
 }
 console.log("submitting form");
     $( "form" ).submit();
+    $('.overlay').show();
+    $('.popup').show();
+
 }
 
 $(".servicename ").hover(function(){
     $(this).addClass(' animate rubberBand')
+})
+
+$(".exitpopup").click(function(){
+    $('.overlay').hide();
+    $('.popup').hide();
 })
 
 $(document).ready(function(){

@@ -550,6 +550,37 @@
         left: 0px;
     }
 
+    .popup { 
+      width: 80%;
+    border: 1px solid grey;
+    position: fixed;
+    top: 45%;
+    left: 10%;
+    z-index: 10;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+
+    }
+
+    .exitpopup {
+      position: absolute;
+      top: 5px;
+      right: 3px;
+      font-size: 12px;
+      color: red;
+    }
+
+    input::placeholder , textarea::placeholder{
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: condensed;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+  }
+
 
   }
 
