@@ -131,6 +131,8 @@ body {
   .servicename p {
     text-align: left;
     padding: 20px 30px;
+    height: 225px;
+    overflow: hidden;
   }
 
 
@@ -526,6 +528,9 @@ body {
           .navbar {
             display: none;
           }
+          .conatiner {
+            width: 80%;
+          }
           .maintext {
             display: inline-block;
             font-size: 28px;
@@ -547,9 +552,7 @@ body {
             display: block;
             width : 100%;
           }
-          .conatiner {
-            width: 80%;
-          }
+          
           .tagline {
             font-size: 18px;
             line-height: normal;
@@ -586,22 +589,33 @@ body {
           }
 
           .hedgeimage {
-            background-image: url("../images/Background-image-our-service-mobile.jpg");
-            padding-top: 50px;
+            background-image: url("../images/Background-image-our-service-mobile.png");
+            padding-top: 127px;
           }
 
-          .servicename {
+          .hedgeimage .conatiner {
             width: 100%;
+
+          }
+          .hedgeimage .servicetagline {
+            width: 80%;
+            margin: 0 auto;
+
+          }
+          .hedgeimage .servicename {
+            width: 70%;
+            margin: 20px 20px 0 0;
           }
 
           .servicenamewrapper {
             display: none;
           }
 
-          .servicenamewrappermobile {
+          .hedgeimage .servicenamewrappermobile {
             display: block;
             overflow-x: scroll;
             white-space: nowrap;
+            margin-left: 20px;
           }
 
           .servicenamewrappermobile p{
@@ -633,8 +647,13 @@ body {
           }
 
           .footerimage{
-            background-image: url("../images/Background-image-footer-mobile.jpg");
-            height: auto;
+            background: #505ef0;
+            height: 100%;
+            padding-top: 10px;
+          }
+
+          .copyright p {
+            font-size: 12px;
           }
 
           .footercontent {
