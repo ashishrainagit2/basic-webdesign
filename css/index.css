@@ -1,5 +1,4 @@
-
-    .firstview {
+   .firstview {
     margin-top: 60px;
     }
     .firstviewcontent {
@@ -551,6 +550,9 @@
           .clientpics::-webkit-scrollbar { width: 0 !important }
           .servicename::-webkit-scrollbar { width: 0 !important }
 
+          .stepcontent h2 {
+            font-size: 14px;
+          }
          
       }
   
