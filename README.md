@@ -2,7 +2,7 @@
 
 This is a basic website which was designed in Zeplin, as per business requirement
 
-##Technologies Used
+## Technologies Used
 
 HTML5
 CSS3
