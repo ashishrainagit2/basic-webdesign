@@ -552,6 +552,11 @@
 
           .stepcontent h2 {
             font-size: 14px;
+            height:45px;
+          }
+
+          .stepcontent {
+            padding-top: 95px;
           }
          
       }
