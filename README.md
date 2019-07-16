@@ -4,10 +4,10 @@ This is a basic website which was designed in Zeplin, as per business requiremen
 
 ## Technologies Used
 
-HTML5
-CSS3
-JAVASCRIPT
-JQUERY
-GOOGLE ANALYTICS
+1. HTML5
+2. CSS3
+3. JAVASCRIPT
+4. JQUERY
+5. GOOGLE ANALYTICS
 
 Website hoisted on : https://blooming-beyond-55027.herokuapp.com/contactus.html
