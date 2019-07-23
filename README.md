@@ -10,4 +10,5 @@ This is a basic website which was designed in Zeplin, as per business requiremen
 4. JQUERY
 5. GOOGLE ANALYTICS
 
-Website hoisted on : https://blooming-beyond-55027.herokuapp.com/index.html
+Website hoisted on : http://leafyblue.in
+
